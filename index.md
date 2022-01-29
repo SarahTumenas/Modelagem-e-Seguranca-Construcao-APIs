@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Lab: Entendendo a Importância da Modelagem e Segurança na Construção de APIS
+Com os tópicos abordados no Lab: Entendendo a importância da Modelagem e Segurança na Construção de APIS, escrevo este pequeno artigo para compartilhar os tópicos aprendidos e que são importantes para o desenvolvimento.
 
-You can use the [editor on GitHub](https://github.com/SarahTumenas/Modelagem-e-Seguranca-Construcao-APIs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<h2> Modelagem de API</h2>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p> No back-end desenvolvemos APIS, tendo a responsabilidade de entregar ao cliente as funcionalidades solicitadas, mas também devemos nos preocupar e entregar pontos não funcionais que, muitas vezes, não estão explícitos.</p>
 
-### Markdown
+<p> Ou seja, não devemos apenas olhar Code Firts ou Contract First e o Clean Code, mas sua modelagem e entrega devem ser pensadas em vários aspectos, inclusive em relação à segurança.</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p>API é um acrônimo para Application Programming Interface (Interface de Programação de Aplicação), que designa uma interface de comunicação que um sistema oferece para que outros acessem suas funções, dados e recursos, sem a necessidade de exposição/explicação de como foram implementados.</p>
 
-```markdown
-Syntax highlighted code block
+<p> O seu desenvolvimento vai depender das necessidades do desenvolvedor ou empresa responsável, podendo ser criada em várias linguagens de programação.
+Uma API deve ser bem construída e documentada, oferecendo uma integração simplificada dos recursos entre várias plataformas, provendo facilidade em sua manutenção e maior segurança às regras de negócio, por exemplo.</p>
 
-# Header 1
-## Header 2
-### Header 3
+ <p>Seguindo tais princípios, é possível ampliar sua utilização, promovendo inovação em outros produtos, viabilizando parcerias e desenvolvimento de soluções personalizadas até mesmo por aqueles que utilizam os recursos do sistema fornecedor da API. O que também auxilia a reduzir uma possível “recodificação” para atualizar ou modificar as regras de negócio, resultando em uma economia de custos.</p>
+   
+<p>Portanto, considerando o API first, entendemos a nossa interface, modelando com as melhores boas práticas possíveis, com um alto nível de maturidade, possibilitando, principalmente o consumo de forma mais rápida e clara, bem como o reuso, não só entre parceiros, entre clientes ou consumidores, como um todo.</p>
 
-- Bulleted
-- List
+<h2> LGPD e segurança de APIS</h2>
 
-1. Numbered
-2. List
+<p>Com notícias frequentes de ataques Hackers e vazamento de dados, LGPD, cibersegurança, governança de dados, muitos devs, principalmente iniciantes, podem se perguntar : E eu com isso?</p>
 
-**Bold** and _Italic_ and `Code` text
+🔸 **“A  Lei 13.709/2018 , Lei Geral de Proteção de Dados Pessoais – LGPD, que dispõe sobre a proteção de dados pessoais tem por objetivo garantir mais privacidade, segurança e transparência no trato de informações pessoais, permitindo que os cidadãos tenham mais controle acerca dos seus próprios dados.”**<br>
 
-[Link](url) and ![Image](src)
-```
+<img src="http://x4dro.com.br/ambteste/lgpd/Info_LGPD2021_V1.jpg" alt="fluxograma da LGPD" border="0">
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<a href="https://portal.trf1.jus.br/portaltrf1/servicos/lgpd/lgpd.htm">Disponível no site do TRF1</a><br>
 
-### Jekyll Themes
+<p>Em outras palavras: a lei busca regulamentar o tratamento de dados pessoais por todos aqueles que, de alguma forma, captam informações sensíveis sobre os indivíduos.</p>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SarahTumenas/Modelagem-e-Seguranca-Construcao-APIs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<p>Apesar de não estar explícito o termo API na letra fria da legislação, ao analisarmos seus artigos e os principais riscos, fica clara a importância da API que estamos desenvolvendo, pois envolve: visibilidade, controle de acesso, gerenciamento de tráfego, proteção de ameaças e a segurança, como integridade e confidencialidade das APIs.</p>
 
-### Support or Contact
+<p>Assim, uma API deverá ser construída baseada em estratégias e soluções, visando entender e mitigar vulnerabilidades, riscos de segurança relacionadas a API, bem como sua integridade e exposição.</p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<h2> Para aprender e se aprofundar: </h2>
+🔸 Para aprendizado e certificação:  
+<a href="https://apiacademy.co/api-certification/">API Academy Certification</a><br>
+🔸 Desenvolvimento e gerenciamento de APIs do Google Cloud:
+<a href="https://cloud.google.com/training/api-management?hl=pt">Apigee</a><br>
+🔸 Design, construção, documentação de APIs REST:
+<a href="https://swagger.io/specification/">Swagger</a> e <a href="https://spec.openapis.org/oas/latest.html">OpenAPI</a><br>
+🔸 Ferramenta de cliente de HTTP, que permite simular chamadas HTTP, verificando o consumo da API:
+<a href="https://www.postman.com/postman/workspace/postman-team-collections/overview">Postman</a><br>
+🔸 Segurança de APIs:
+<a href="https://owasp.org/www-project-api-security/">OWASP</a> e <a href="https://apisecurity.io/">APIsecurity</a><br>
+
+
+
+
